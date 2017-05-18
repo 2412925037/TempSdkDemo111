@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="支付" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="更多游戏" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="退出" />
+    
+   
+    
+     <Button
+        android:id="@+id/musicon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="音乐开关" />
+     
+     
+     <Button
+        android:id="@+id/ishavemore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="是否有更多游戏" />
+     
+     
+     
+     
+         <Button
+        android:id="@+id/ishaveIntent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="是否有网络" />
+         
+         
+         
+             <Button
+        android:id="@+id/channelid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="获取channelid" />
+             
+             
+                 <Button
+        android:id="@+id/gameid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="获取gameid" />
+                 
+                 
+       <Button
+        android:id="@+id/help"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="帮助" />
+                                  
+                                  
+       <Button
+        android:id="@+id/about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="关于" />
+                 
+                 
+                 
+
+</LinearLayout>
